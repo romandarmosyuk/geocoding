@@ -1,7 +1,8 @@
-import "./App.scss";
+import { RouterProvider } from "react-router/dom";
+import { withProviders } from "./providers/WithProviders";
+import { router } from "./routes/router";
 
-function App() {
-  return <></>;
-}
+// eslint-disable-next-line react-refresh/only-export-components
+const AppComponent = () => <RouterProvider router={router} />;
 
-export default App;
+export const App = withProviders(AppComponent);
