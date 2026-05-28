@@ -1,0 +1,11 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.button {
+  margin-top: 10px;
+  align-self: flex-start;
+}
